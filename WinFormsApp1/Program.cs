@@ -12,6 +12,16 @@ namespace WinFormsApp1
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             Application.Run(new Form1());
+            //void QuerySubject9Randomly(List<Student> studentList)
+            //{
+            //    var result = from student in studentList
+            //                 where student.Score >= 8
+            //                 select student;
+            //    foreach (Student student in result)
+            //    {
+                    
+            //    }
+            //}
         }
     }
 }

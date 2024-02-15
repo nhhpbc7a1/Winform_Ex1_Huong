@@ -8,7 +8,7 @@ namespace WinFormsApp1
 {
     class Teacher : Person   
     {
-        public Teacher(string name, string address, string id, DateTime birthday) : base(name, address, id, birthday)
+        public Teacher(string name, string address, string cmnd, DateTime birthday, string email, string id, string phone, string gender) : base(name, address, cmnd, birthday, email, id, phone, gender)
         {
 
         }

@@ -8,9 +8,11 @@ namespace WinFormsApp1
 {
     class Student : Person
     {
-        public Student(string name, string address, string id, DateTime birthday) : base(name,address,id,birthday)
+        private int score = 0;
+        public int Score { get { return score; } }
+        public Student(string name, string address, string cmnd, DateTime birthday, string email, string id, string phone, string gender, int score) : base(name,address, cmnd, birthday,email,id,phone, gender)
         {
-
+            this.score = score;
         }
        
     }
